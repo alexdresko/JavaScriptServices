@@ -35,20 +35,20 @@ Prerequisites:
 * [.NET Core 2.0](https://www.microsoft.com/net/core) (or later) SDK
 * [Node.js](https://nodejs.org/) version 6 (or later)
 
-With these prerequisites, you can immediately create new ASP.NET Core applications that use Angular, React, or React+Redux without having to install anything extra.
+With these prerequisites, you can immediately create new ASP.NET Core applications that use Angular, React, React+Redux, or Aurelia without having to install anything extra.
 
-### Option 1: Creating Angular/React/Redux applications from the command line (cross-platform)
+### Option 1: Creating Angular/React/Redux/Aurelia applications from the command line (cross-platform)
 
-In an empty directory, run (for example) `dotnet new angular`. Other supported SPA frameworks include React and React+Redux. You can see the list of available SPA templates by running `dotnet new spa`.
+In an empty directory, run (for example) `dotnet new angular`. Other supported SPA frameworks include React, React+Redux, and Aurelia. You can see the list of available SPA templates by running `dotnet new spa`.
 
 Once the generator has run and restored all the dependencies, you can start up your new ASP.NET Core SPA:
 
     npm install
     dotnet run 
 
-### Option 2: Creating Angular/React/Redux applications using Visual Studio 2017 Update 3 or later (Windows only)
+### Option 2: Creating Angular/React/Redux/Aurelia applications using Visual Studio 2017 Update 3 or later (Windows only)
 
-Using the `File`->`New Project` dialog, select *ASP.NET Core Web Application*. You will then be offered the option to create an application with Angular, React, or React+Redux. When the application is created, you can build and run it in the normal way.
+Using the `File`->`New Project` dialog, select *ASP.NET Core Web Application*. You will then be offered the option to create an application with Angular, React, React+Redux, or Aurelia. When the application is created, you can build and run it in the normal way.
 
 ### More info and other SPA frameworks
 
